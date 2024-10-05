@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/DSCF0817.JPG'); 
+    background-size: cover;
+
+}
+
+.li{
+    font-family: 'Georgia', serif;
+}
+
+.big_container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 55px;
+    box-shadow: 0 4px 2px -2px #3E5164;
+    text-align: center;
+}
+
+h1 {
+    color: #3E5164;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.info_container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+#info {
+    text-align: left;
+    font-size: 18px;
+}
+
+#info_title {
+    font-size: 24px;
+    color:  #40688F;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Georgia', serif;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    object-fit: cover; 
+    float: right;
+}
+
+.little_circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    object-fit: cover; 
+    float: right;
+    background: #c0dfff;
+
+}
+
+
+
+.hobbies {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.blue-box {
+    color: #2D343A;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Georgia', serif;
+}
+
+
+
+
+.section {
+    margin-bottom: 30px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+h2 {
+    color: #40688F;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2D343A;
+    font-family: 'Georgia', serif;
+}
+.hobbies, .projects, .skills {
+    list-style-type: none;
+    padding: 0;
+}
+.hobbies li, .projects li, .skills li {
+    background: #D9ECFF;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+.hobbies li:hover, .projects li:hover, .skills li:hover {
+    background: #c0dfff;
+    transform: scale(1.02);
+}
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* 配色方案1 */
+/* 
+#1D3040
+#779DBF
+#1F486B
+#B9D4EB
+#D6ECFF
+#ADD9FF
+#044fab9a
+*/
+
+/* 配色方案2 */
+/* 
+#3E5164 偏灰色
+#2D343A 灰黑
+#40688F 图片天空色
+#D9ECFF 浅钱蓝
+#AED7FF 浅蓝
+#84C1FF 嫩蓝
+
+*/
