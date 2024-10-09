@@ -68,8 +68,6 @@ h1 {
 
 }
 
-
-
 .hobbies {
     display: flex;
     list-style-type: none;
@@ -77,19 +75,26 @@ h1 {
     justify-content: space-between;
 }
 
+
+.hobby_container {
+    text-align: center; 
+}
+
+.hobby_icon {
+    font-size: 3em; 
+    margin-top: 10px; 
+}
+
 .blue-box {
     color: #2D343A;
     padding: 10px;
     width: 120px;
-    height: 120px;
+    height: 50px;
     border-radius: 5px;
     text-align: center;
     font-size: 25px;
     font-family: 'Georgia', serif;
 }
-
-
-
 
 .section {
     margin-bottom: 30px;
@@ -108,21 +113,49 @@ p {
     color: #2D343A;
     font-family: 'Georgia', serif;
 }
-.hobbies, .projects, .skills {
+.projects li, .hobbies, .skills {
     list-style-type: none;
     padding: 0;
 }
-.hobbies li, .projects li, .skills li {
+.projects li, .hobbies li, .skills li {
     background: #D9ECFF;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
     transition: background 0.3s, transform 0.3s;
 }
-.hobbies li:hover, .projects li:hover, .skills li:hover {
+.projects li:hover, .hobbies li:hover,.skills li:hover {
     background: #c0dfff;
     transform: scale(1.02);
 }
+
+.icon {
+    font-size: 1.2em; /* 图标大小 */
+    margin-right: 5px; /* 图标与文本的间距 */
+    position: absolute;
+    right: 15px; /* 右侧位置 */
+    top: 15px; /* 顶部位置 */
+    transition: transform 0.3s; /* 动画效果 */
+}
+
+.projects {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+    animation: fadeIn 0.3s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
 footer {
     margin-top: 30px;
     font-size: 14px;
